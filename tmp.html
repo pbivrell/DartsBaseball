@@ -1,0 +1,20 @@
+<html>
+<link rel = "stylesheet" type = "text/css" href = "test.css" />
+<table id="buttontable"><tr><td id="red"><button id="red" onclick="single()">Single</button></td><td id="red"><button id="red">Double</button></td><td id="red"><button id="red">Triple</button></td><td id="red"><button id="red">Home Run</button></td></tr><tr><td id="green"><button id="green">Double Play</button></td><td id="red"><button id="red">Stolen Base</button></td><td id="red"><button id="red">Safe Hit</button></td><td id="red"><button id="red">Sacrifice</button></td></tr></table><table id="buttontable2"><tr><td id="yellow"><button id="yellow">Ball</button></td><td id="yellow"><button id="yellow">Foul</button></td><td id="yellow"><button id="yellow">Strike</button></td><td id="yellow"><button id="yellow">Out</button></td></tr></table><img src="res/Bases.png" id="image1"></img><p id="pitcher">Current Pitcher: Blake</p><p id="balls">Balls: </p><img src="res/Balls0.png" id="image2"></img><p id="strikes">Strikes: </p><img src="res/Strikes0.png" id="image3"></img><p id="outs">Outs: </p><img src="res/Outs0.png" id="image4"></img><table id="table2"><tr><td id="empty"></td><td>1</td><td id="current">2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>Total</td></tr><tr><td>Blake</td><td>0</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>0</td></tr><tr><td>Paul</td><td>3</td><td>0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>3</td></tr></table>
+
+<script>
+    var request = new XMLHttpRequest();
+    request.onload = function(){
+        var status = request.status;
+        var data = request.responseText;
+    }
+
+    function single(){
+        request.open("POST","http://192.168.2.4:8080", true);
+        request.setRequestHeader("Content-Type","text/plain;charset=UTF-8");
+        request.send("Single");
+    }
+
+</script>
+
+</html>

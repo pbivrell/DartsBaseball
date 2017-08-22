@@ -1,0 +1,118 @@
+#buttontable{
+    position: absolute;
+    TOP: 15px;
+    LEFT:75px;
+    border-collapse: collapse;
+}
+
+#buttontable2{
+    position: absolute;
+    TOP: 25px;
+    RIGHT: 125px;
+    border-collapse: collapse;
+    margin-left: 325px;
+    margin-top: 15px;
+}
+
+#current{
+    color: blue;
+}
+
+#image1{
+    position: absolute;
+    TOP: 135px;
+    LEFT: 145px;
+}
+
+#balls{
+    position: absolute;
+    TOP: 175px;
+    RIGHT: 400px;
+    font-size: 160%;
+    color: #383838;
+}
+
+#image2{
+    position: absolute;
+    TOP: 195px;
+    RIGHT: 155px;
+    width: 150px;
+}
+
+#strikes{
+    position: absolute;
+    TOP: 235px;
+    RIGHT: 375px;
+    font-size: 160%;
+    color: #383838;
+}
+
+#image3{
+    position: absolute;
+    TOP: 255px;
+    RIGHT: 155px;
+    width: 100px;
+}
+
+#outs{
+    position: absolute;
+    TOP: 295px;
+    RIGHT: 405px;
+    font-size: 160%;
+    color: #383838;
+}
+
+#image4{
+    position: absolute;
+    TOP: 315px;
+    RIGHT: 155px;
+    width: 100px;
+}
+
+#pitcher{
+    position: absolute;
+    TOP: 125px;
+    RIGHT: 175px;
+    font-size: 165%;
+}
+
+table,th,td{
+    border: 1px solid black;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    font-size: 90%;
+}
+
+#empty{
+    border-left: solid 1px white;
+    border-top: solid 1px white;
+}
+
+#table2{
+    border-collapse: collapse;
+    position: absolute;
+    TOP:500px;
+    LEFT:300px;
+}
+
+#table2 td{
+    width:75px;
+    height:35px;
+    text-align:center;
+}
+
+#green{
+    background-color: #6aa84f;
+}
+
+#red{
+    background-color:#cc4125;
+}
+
+#yellow{
+    background-color:#ffd966;
+}
