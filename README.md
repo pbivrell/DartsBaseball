@@ -8,4 +8,5 @@ TODO
 - Add Baseball start webpage
 - Rewrite HTTP Server so post request gets proper reasponse back
 
-![Alt text](http://i67.tinypic.com/zwc9xt.jpg =48x48)
+Picture of Darts Baseball Board
+![Alt text](http://i67.tinypic.com/zwc9xt.jpg)
